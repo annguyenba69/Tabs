@@ -1,0 +1,55 @@
+
+body {
+    padding: 70px;
+    background-color: #f1f5f8;
+}
+
+.header .underline {
+    max-width: 100px;
+    background-color: paleturquoise;
+    padding: 2px 0px;
+    margin: 0px auto;
+}
+
+.header {
+    margin-bottom: 30px;
+}
+
+.tab .button{
+    outline: none;
+    background: none;
+    border: none;
+    font-size: 22px;
+    margin-bottom: 10px;
+    transition: 0.25s ease-in-out;
+    width: 130px;
+}
+
+.tab .button:hover{
+    color: #617d98;
+    border-left: 2px solid steelblue;
+}
+
+.box {
+    padding-left: 40px;
+}
+
+.box .top .title {
+    font-weight: 400;
+}
+
+.box .top .name {
+    font-weight: 700;
+    padding: 2px 10px;
+    background-color: paleturquoise;
+    display: inline-block;
+    border-radius: 5px;
+    color: #617d98;
+    margin-bottom: 5px;
+}
+
+.box .top .date {
+    font-weight: 300;
+    font-size: 18px;
+    color: #617d98;
+}
